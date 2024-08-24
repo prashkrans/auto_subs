@@ -44,6 +44,7 @@ pip install -r requirements.txt
 - Ignore the error: `/tmp/tmpnbw41k68/main.c:4:10: fatal error: Python.h: No such file or directory
     4 | #include <Python.h>`
 - When running for the first time, it downloads the whisper models which takes some time as its about 2GBs in size. 
+- The fonts used are open source fonts.
 
 
 ### License:
