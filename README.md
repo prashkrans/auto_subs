@@ -2,6 +2,10 @@
 A Gradio web application in Python for automatically generating and embedding subtitles in videos, with customization options.
 
 ### Demo Video:
+https://github.com/user-attachments/assets/9e988f43-b4a0-4392-a163-0848034e314c
+
+https://github.com/user-attachments/assets/3ca5872f-a96b-4c30-8034-bab367e5fee9
+
 
 ### Prerequisites:
 - Python 3.10 (Might work with lower/higher versions as well).
@@ -45,6 +49,7 @@ pip install -r requirements.txt
     4 | #include <Python.h>`
 - When running for the first time, it downloads the whisper models which takes some time as its about 2GBs in size. 
 - The fonts used are open source fonts.
+- A few fonts are in upper case by default.
 
 
 ### License:
