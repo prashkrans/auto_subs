@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 
 ### License:
-This app and ViTMatte's model weights are released under the MIT License. See [LICENSE](LICENSE) for further details.
+This app and OpenAI whisper model weights are released under the MIT License. See [LICENSE](LICENSE) for further details.
 
 ### Credits:
 - [Open AI Whisper](https://github.com/openai/whisper) | [MIT License](https://github.com/openai/whisper?tab=MIT-1-ov-file)
