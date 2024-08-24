@@ -1,0 +1,17 @@
+{
+  "RESOURCES_DIR": "./resources",
+  "VIDEO_DIR": "./resources/video_dir",
+  "AUDIO_DIR": "./resources/audio_dir",
+  "JSON_DIR": "./resources/json_dir",
+  "SUBTITLES_DIR": "./resources/subtitles_dir",
+  "OUTPUT_DIR": "./resources/output_dir",
+  "TMP_OUTPUT_DIR": "/tmp/gradio/output_dir",
+  "TMP_SUBTITLES_DIR": "/tmp/gradio/output_dir/subtitles_dir",
+  "LOGS_DIR": "./resources/logs_dir",
+  "FONTS_DIR": "./resources/fonts",
+  "THUMBNAILS_DIR": "./resources/fonts/thumbnails",
+  "PARAMS_JSON_1_PATH": "./params_1.json",
+  "PARAMS_JSON_2_PATH": "./params_2.json",
+  "WORD_OPTIONS_JSON_PATH": "./word_options.json",
+  "FONTS_JSON_PATH": "./fonts.json"
+}

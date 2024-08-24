@@ -1,0 +1,7 @@
+# Ignore the directories and files below:
+__pycache__
+.idea/
+env_auto_subs/
+resources/
+params_1.json
+params_2.json
