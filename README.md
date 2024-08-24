@@ -13,7 +13,7 @@ A Gradio web application in Python for automatically generating and embedding su
 ### Setup:
 1. Clone the repo and move to the root dir.
 ```commandline
-https://github.com/prashkrans/auto_subs.git
+git clone https://github.com/prashkrans/auto_subs.git
 cd auto_subs/
 ```
 2. Create a python virtual environment.
@@ -31,15 +31,20 @@ pip install -r requirements.txt
 `source env_auto_subs/bin/activate`
 2. Run `main_gradio_app.py`  
 `python3 main_gradio_app.py`
-3. Open the local host link in a web browser by either `Ctrl + Left Click` on the link provided in the terminal or copy pasting the same in the browser.
+3. Open the local host link in a web browser by either `Ctrl + Left Click` on the link provided in the terminal or copying and pasting the same in the browser.
 4. Upload the video to be subbed.
-5. Click on `generate subtitles` and wait for the subtitles to be generated.
+5. Click on `Generate Subtitles` and wait for the subtitles to be generated.
 6. Review and edit the generated subtitles if required.
-7. Click on `embed subtitles` to hard burn the subtitles in the provided video.
-8. Download the video by clicking on the top right corner of the preview.  
+7. Customize subtitles as required and then click on `Embed Subtitles` to hard burn the subtitles in the provided video.
+8. Download the video by clicking in the top right corner of the video preview.
+9. Download .vtt and .srt subtitles if required.
 
 ### Note:
 - Change model name `model_name = "large-v2"` to `medium` or `large-v3` in line 23 of [_2_generate_transcript_matrix.py](_2_generate_transcript_matrix.py) to use different available models of open-ai whisper.
+- Ignore the error: `/tmp/tmpnbw41k68/main.c:4:10: fatal error: Python.h: No such file or directory
+    4 | #include <Python.h>`
+- When running for the first time, it downloads the whisper models which takes some time as its about 2GBs in size. 
+
 
 ### License:
 This app and ViTMatte's model weights are released under the MIT License. See [LICENSE](LICENSE) for further details.

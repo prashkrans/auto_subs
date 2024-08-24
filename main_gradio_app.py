@@ -73,8 +73,8 @@ def extract_audio_and_gen_transcript_matrix_gr(
     file_name = extract_audio(input_video_path)
     transcript_text = generate_transcript_matrix(file_name, params_dict_1)
 
-    proc_completed_message = ("Transcript generated successfully. Please review and edit it if required, then select "
-                              "transcription language and click on \"Process Subtitles\" button to continue")
+    proc_completed_message = ("Subtitles generated successfully. Please review and edit it if required, then customize "
+                              "subtitles as required and then click on \"Embed Subtitles\" button to continue")
 
     logger.info(proc_completed_message)
     print(proc_completed_message)
