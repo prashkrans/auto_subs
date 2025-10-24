@@ -1,6 +1,6 @@
 import os
 
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from _utils import AUDIO_DIR, create_new_logger, generate_unique_file_name
 
 
